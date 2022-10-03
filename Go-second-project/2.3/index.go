@@ -17,7 +17,7 @@ func main() {
 func GetAndConvert(numberTitle string) string {
 	var strNumber string
 	fmt.Print(numberTitle)
-	fmt.Scan(&strNumber, 3)
+	fmt.Scan(&strNumber)
 	fmt.Println()
 	if len([]rune(strNumber)) > 3 {
 		fmt.Println("Invalid Number , number should be three-digit")
